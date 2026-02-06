@@ -903,6 +903,10 @@ p {
 }
 
 @media (max-width: 768px) {
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+
     .nav-links {
         display: none;
     }
@@ -923,6 +927,7 @@ p {
 
     .usecase-grid {
         grid-template-columns: 1fr;
+        padding: 0;
     }
 
     .examples-grid {
@@ -931,5 +936,18 @@ p {
 
     .cta-group {
         flex-direction: column;
+    }
+
+    .passport-content {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .passport-visual {
+        margin-bottom: var(--spacing-md);
+    }
+
+    .security-grid {
+        grid-template-columns: 1fr;
     }
 }
