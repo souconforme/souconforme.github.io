@@ -904,7 +904,11 @@ p {
 
 @media (max-width: 768px) {
     .container {
-        padding: 0 var(--spacing-md);
+        padding: var(--spacing-md) var(--spacing-md);
+    }
+
+    .comparison-table table {
+        zoom: 0.8;
     }
 
     .nav-links {
